@@ -1,0 +1,16 @@
+{
+  "name": "desafio01",
+  "version": "1.0.0",
+  "description": "Primeiro Desafio Maratona Full Cycle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "author": "Marcelo Nunes dos Santos (marcello.santos@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3"
+  }
+}
