@@ -11,11 +11,13 @@ $ docker-compose up
 
 ### Buildando a imagem para o DockerHub
 ```
-$ docker-compose -f docker-compose.yml -f docker-compose.production.yml build
-$ docker push marcellosantos/desafio1
+$ docker build -t marcellosantos/maratona-fullcycle-desafio01 .
+$ docker push marcellosantos/maratona-fullcycle-desafio01
 ```
 
 ### Executando no server a partir da imagem do DockerHub
 ```
-$ docker run -p 3000:3000 marcellosantos/desafio1
+$ docker pull marcellosantos/maratona-fullcycle-desafio01
+$ docker run -p 3000:3000 marcellosantos/maratona-fullcycle-desafio01
+
 ```
